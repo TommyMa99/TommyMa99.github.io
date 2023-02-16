@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/common/common.css" />
+    <link rel="stylesheet" href="../css/project/project.css" />
+  </head>
+  <body>
+    <nav>
+    <div class="nav-title">Jianqing Ma</div>
+        <div class="navbar-menu">
+            <div class="navbar-item"><a href="../index.html">Home</a></div>
+            <div class="navbar-item navbar-selected"><a href="./project.html">Project</a></div>
+            <div class="navbar-item"><a href="./about.html">About</a></div>
+            <div class="navbar-item"><a href="./contact.html">Contact</a></div>
+        </div>
+    </nav>
+
+    <div class="grid-container-project center">
+      <div class="grid-element1">
+        <span class="title">Network Checker</span>
+        <ul>
+          <li>Worked in an agile team setting which is managed by Azure DevOps and planned each sprint with Kanban board, backlogs, story points assignment, and daily standups to maximize efficiency while keeping our project on track.</li>
+          <li>Measured network metrics for audio and video calls with flask based Python backend and displayed user-friendly UIs and summary graphs using AngularJS to decide the usability of Command Central and optimize user experience.</li>
+          <li>Implemented authentication using OAuth 2.0 protocol to secure REST API with authorization code flow.</li>
+          <li>Integrated CI/CD pipeline and IaC with Terraform to ensure the maintainability and reliability of mission-critical services.</li>
+          <li>Built CD pipeline to deploy our dockerized backend app on K8 cluster and configured ingress to enable public access which ensures the accuracy of network metrics measured between our clients and service hosted on Azure cloud.</li>
+        </ul>
+      </div>
+      <div class="grid-element2">
+        <span class="title">Go-Micro</span>
+        <ul>
+          <li>Developed a scalable distributed application with Go that is made of 7 microservices that communicate with one another through HTTP, RPC, and gRPC protocols, and by sending and consuming messages using RabbitMQ.</li>
+          <li>Integrated frontend service, authorization service with PostgreSQL database, logger service with MongoDB database, mail service, listener service with AMQP, and broker service as an entry point to the app.</li>
+          <li>Created Makefile for faster build of each microservice and deployed application on Docker Swarm hosted by Linode and created reverse proxy server with Caddy to ensure the smooth flow of network traffic.</li>
+          <li>
+            <a href="https://github.com/TommyMa99/go-micro">Link to Project</a>
+          </li>
+        </ul>
+      </div>
+      <div class="grid-element3">
+        <span class="title">Husky Pay</span>
+        <ul>
+          <li>Constructed a MVC structured Java REST API with SpringBoot and PostgreSQL database that enables business owner and customer to register, log in, and log out an account, make transactions, issue refunds, and check transactions.</li>
+          <li>Built custom APIs to query PostgreSQL database using JDBC and SQL and secured APIs with JWT tokens.</li>
+          <li>Deployed database on Amazon RDS, created and configured instance on Amazon EC2, and deployed application on the instance created using Bash.</li>
+        </ul>
+      </div>
+      <div class="grid-element4">
+        <span class="title">Task Manager</span>
+        <ul>
+          <li>Built real-world Task Manager API with Node.js for clients to create, read, update and delete tasks that supports user authentication, file uploads, email notifications and interactions with MongoDB databases for CRUD operation.</li>
+          <li>Encrypted user login password, integrated mongoose and express middleware, and generated authentication tokens with bcrypt.js and jsonwebtoken to secure private user data.</li>
+          <li>Implemented production-ready database on MongoDB Atlas and wrote custom queries including filtering, paginating, and sorting data to improve efficiency in a scalable system.</li>
+          <li>
+            <a href="https://github.com/TommyMa99/task-manager-api">Link to Project</a>
+          </li>
+        </ul>
+      </div>
+      <div class="grid-element5">
+        <span class="title">Real-Time Chat Web App Development</span>
+        <ul>
+          <li>Applied socket.io framework on node.js to implement websocket protocol to create real time chat application that allows bidirectional communication and persistent connection between clients and servers.</li>
+          <li>Parsed the inner HTML to place users in the specified chatroom and allowed message only be shared in the same room.</li>
+          <li>Implemented bad-words package, enabled location sharing, applied time stamps, and built auto-scrolling mechanism when messages go out of bound to improve user experience.</li>
+          <li>Styled two pages for joining and using the room in a appealing way, and deployed the app on Heroku for public access.</li>
+          <li>
+            <a href="https://github.com/TommyMa99/node-v3-chat-app">Link to Project</a>
+          </li>
+        </ul>
+      </div>
+      <div class="grid-element6">
+        <span class="title">RC Vehicle Embedded System Design</span>
+        <ul>
+          <li>Designed and programmed an embedded system on IAR platform using embedded C that creates a car that can follow a black electrical tape line after navigating via WiFi connection.</li>
+          <li>Soldered and configured hardware components on MSP430 FRAM micro controller including ADC, IoT module, LCD display and emitter/detector circuit.</li>
+          <li>Read datasheets, initialized GPIO ports, calculated power usage, set up IoT functionality and used Oscilloscope for testing and debugging.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

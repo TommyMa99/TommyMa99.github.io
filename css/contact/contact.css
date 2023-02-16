@@ -1,0 +1,23 @@
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: auto;
+    width: 450px;
+    height:250px;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+body {
+    background: url('../../resources/background2.png');
+    background-position: 0 1000px;
+    font-weight: 700;
+}
